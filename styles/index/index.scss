@@ -218,13 +218,35 @@
                   margin-bottom: 80px;
             }
             &__contact-box {
-                  border: 1px solid #000;
                   width: 178px;
                   height: 57px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
             }
 
             &__contact-method-box {
+                  background: rgb(219, 219, 220);
+                  border-radius: 50%;
+                  width: 52px;
+                  height: 52px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
             }
+            &__contact-method-bg{
+                  background: rgb(76, 76, 89);
+                  border-radius: 50%;
+                  width: 30px;
+                  height: 30px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+            }
+            &__contact-method-bg > img{
+                  width: 20px;
+                  height: 20px;
+                  filter: invert(93%) sepia(2%) saturate(7%) hue-rotate(201deg) brightness(96%) contrast(92%);            }
       
             &__gellery-container {
                   display: grid;

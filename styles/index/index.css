@@ -670,9 +670,56 @@ body {
 }
 
 .main__contact-box {
-  border: 1px solid #000;
   width: 178px;
   height: 57px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__contact-method-box {
+  background: #dbdbdc;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__contact-method-bg {
+  background: #4c4c59;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__contact-method-bg > img {
+  width: 20px;
+  height: 20px;
+  -webkit-filter: invert(93%) sepia(2%) saturate(7%) hue-rotate(201deg) brightness(96%) contrast(92%);
+          filter: invert(93%) sepia(2%) saturate(7%) hue-rotate(201deg) brightness(96%) contrast(92%);
 }
 
 .main__gellery-container {
